@@ -10,16 +10,8 @@ Checks if the target phone number is registered on WhatsApp.
 Folder Structure
 src/ ├─ routes/ │ └─ send.ts ├─ whatsapp/ │ └─ whatsapp.service.ts ├─ app.ts └─ index.ts auth/ <- QR & credentials will be saved here
 
-yaml Copy code
-
-Installation
-Clone the repository:
-git clone <your-repo-url>
-cd <your-project-folder>
-Install dependencies:
-
 bash
-Copy code
+git clone
 npm install
 npm run dev
 Add .gitignore to exclude credentials:
